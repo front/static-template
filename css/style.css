@@ -45,6 +45,10 @@ p a, p a:visited {
 }
 
 /* Misc ---------------------- */
+img {
+  max-width: 100%;
+}
+
 .left {
   float: left;
 }
@@ -75,6 +79,17 @@ p a, p a:visited {
 
 .hide-override {
   display: none !important;
+}
+
+.invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.invisible:active, .invisible:focus {
+  position: static !important;
+  clip: auto;
 }
 
 .highlight {
