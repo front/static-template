@@ -1,0 +1,10 @@
+// Legacy support since modular scale
+// used to reside directly within Foundation
+@import "modular-scale";
+
+// Can't figure outh how this file should be named modular-scale.scss. I got this
+// error then: error sass/global/functions/modular-scale.scss (Line : An @import 
+// loop has been found: /Users/rabbel15/Sites/front/frontkom-static-template/sass
+// /global/functions/modular-scale.scss imports itself)
+//
+// Temporary naming the file _modular-scale.scss so it's not compiling anywhere.

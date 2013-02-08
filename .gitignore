@@ -1,0 +1,6 @@
+# Exclude temporary .html files
+*-loc.html
+
+.sass-cache/
+.DS_Store
+
